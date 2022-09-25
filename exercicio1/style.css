@@ -1,0 +1,29 @@
+header {
+    background-color: blue;
+    color: white;
+  }
+  
+  h1 {
+    color: orange;
+  }
+  
+  #titulo-importante {
+    color: green;
+  }
+  
+  h2 {
+    background-color: yellow;
+  }
+  
+  section {
+    background-color: green;
+  }
+  
+  section .titulo-secao {
+    color: white;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+  }

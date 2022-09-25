@@ -1,25 +1,30 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
-header{
-  
+header {
 }
 
-section{
+main {
+  font-family: 'Helvetica';
+}
+
+section {
   float: left;
-/*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  width: 840px;
-  padding: 40px;
+  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
+  width: 60vw;
+  /* vw => VIEWPORT WIDTH: relativo ao tamanho da tela*/
+  /* %: relativa ao pai*/
+  /* padding: 40px; */
 }
 
-aside{
-  float:right;
- /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  padding: 20px;
-  width: 340px;
+aside {
+  float: right;
+  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
+  width: 40vw;
+  /* padding: 20px; */
 }
 
-article{
+article {
   margin: 10px 0;
 }
